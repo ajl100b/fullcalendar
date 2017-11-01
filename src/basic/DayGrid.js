@@ -262,7 +262,7 @@ var DayGrid = FC.DayGrid = InteractiveDateComponent.extend(StandardInteractionsM
 	prepareHits: function() {
 		this.colCoordCache.build();
 		this.rowCoordCache.build();
-		this.rowCoordCache.bottoms[this.rowCnt - 1] += this.bottomCoordPadding; // hack
+		// this.rowCoordCache.bottoms[this.rowCnt - 1] += this.bottomCoordPadding; // hack
 	},
 
 
