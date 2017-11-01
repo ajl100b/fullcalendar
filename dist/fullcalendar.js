@@ -1,5 +1,5 @@
 /*!
- * FullCalendar v0.0.0
+ * FullCalendar v0.0.1
  * Docs & License: https://fullcalendar.io/
  * (c) 2017 Adam Shaw
  */
@@ -19,7 +19,7 @@
 ;;
 
 var FC = $.fullCalendar = {
-	version: "0.0.0",
+	version: "0.0.1",
 	// When introducing internal API incompatibilities (where fullcalendar plugins would break),
 	// the minor version of the calendar should be upped (ex: 2.7.2 -> 2.8.0)
 	// and the below integer should be incremented.
@@ -15437,7 +15437,7 @@ var DayGrid = FC.DayGrid = InteractiveDateComponent.extend(StandardInteractionsM
 	prepareHits: function() {
 		this.colCoordCache.build();
 		this.rowCoordCache.build();
-		this.rowCoordCache.bottoms[this.rowCnt - 1] += this.bottomCoordPadding; // hack
+		// this.rowCoordCache.bottoms[this.rowCnt - 1] += this.bottomCoordPadding; // hack
 	},
 
 
